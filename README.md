@@ -1,5 +1,5 @@
 # backup-volume
-A simple Docker container to backup a docker volume to S3.
+A simple Docker container to create and encrypted backup of a docker volume, and save it to S3.
 
 ### Backup a volume
 

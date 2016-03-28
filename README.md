@@ -29,12 +29,12 @@ docker run \
 
 ```
 docker run \
-    --rm -ti \
-    -v ~/.aws:/aws \
-    -e ENC_KEY=encryption_string \
-    -e BUCKET=s3://bucket.example.com \
-    -e BUCKET_DIR=volume \
-    -v my-volume:/volume \
-    hyperboloide/backup-volume \
-    restore
+        --rm -ti \
+        -v ~/.aws:/aws \
+        -e ENC_KEY=encryption_string \
+        -e BUCKET=s3://bucket.example.com \
+        -e BUCKET_DIR=volume \
+        -v my-volume:/volume \
+        hyperboloide/backup-volume \
+        restore
 ```

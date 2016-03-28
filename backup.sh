@@ -3,7 +3,7 @@
 set -e
 
 DEST=backup-`date +%Y-%m-%d-%H:%M`.gz.enc
-echo $DEST
+echo $BUCKET/$BUCKET_DIR/$DEST
 
 cd /volume
 
